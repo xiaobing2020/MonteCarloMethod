@@ -20,7 +20,7 @@ func square(x, y float64) float64 {
 // 蒙特卡罗算法go语言实现
 // 参数说明: left: 函数fn的左区间
 //          right: 函数fn的右区间
-//          fn: 曲线方程 f(x,y) 例如: 1)  f(x, y) = (x - 1)^2 + (y - 1)^2   2) f(x, y) = x^2 - y
+//          fn: 曲线方程 f(x,y) 例如: 1)  f(x, y) = (x - 0.5)^2 + (y - 0.5)^2   2) f(x, y) = x^2 - y
 //          upper: 函数fn的取值上界 普通函数该值传0, 圆或曲线
 func monteCarlo(left, right float64, fn func(x, y float64) float64, upper float64) (int, int) {
     var x, y float64
