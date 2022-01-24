@@ -9,11 +9,6 @@ import (
     "time"
 )
 
-func xSquare(x float64) float64 {
-    return x * x
-}
-
-
 func circle(x, y float64) float64 {
     return (x - 0.5) * (x - 0.5) + (y - 0.5) * (y - 0.5)
 }
